@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+hr {
+    width: 90%;
+    margin: 5%;
+}
+
+.cabeçalho {
+    bottom: 0;
+    background: #2D306E;
+    color: #f1f1f1;
+    width: 100%;
+    padding-right: 20px;
+    float: left;
+}
+
+.cabeçalho a {
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.cabeçalho a:hover {
+    margin-left: 30px;
+    color: #EFDF02;
+}
+
+.conteudo {
+    padding: 10% 11% 5% 5%;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+    width: 100%;
+}
+
+.float {
+    width: 33%;
+    margin: 0px 20px 0px 5px;
+    color: #EFDF02;
+    text-align: left;
+    text-shadow: 2px 2px rgb(12, 20, 65);
+    float: left;
+}
+
+.float p {
+    text-shadow: none;
+    font-size: 14px;
+}
+
+.float h3 {
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+
+.rodape {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 370px;
+    bottom: 0;
+}
+
+.top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    transition-duration: 0.2s;
+    filter: drop-shadow(3px 3px 3px #2D306E);
+    z-index: 10;
+}
+
+.top:hover {
+    padding-bottom: 5px;
+    filter: invert(80%);
+}
+
+.clear {
+    clear: both;
+}
+
+.relative {
+    position: relative;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.produto {
+    padding: 5px;
+    margin: 5px;
+    width: 260px;
+    height: 400px;
+    float: left;
+    background-color: white;
+}
+
+.produto a {
+    text-decoration: none;
+    text-align: center;
+    color: #2D306E;
+}
+
+.produto a:hover {
+    text-decoration: none;
+    text-align: center;
+    color: #b3a700;
+    background-color: #2D306E;
+}
+
+.produto p {
+    color: #000000;
+}
+
+#home {
+    width: 60px;
+    transition-duration: 0.4s;
+}
+
+#home:hover {
+    width: 70px;
+    color: #EFDF02;
+    margin-left: -20px;
+}
+
+#bola1 {
+    margin-top: -20px;
+    padding: 20% 41% 20% 5%;
+    text-align: left;
+    font-weight: bold;
+    color: #EFDF02;
+    width: 100%;
+    height: 860px;
+    background-image: url(img/bola1.png);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bola2 {
+    margin-top: -20px;
+    padding: 20% 5% 20% 41%;
+    text-align: right;
+    font-weight: bold;
+    color: #152375;
+    width: 100%;
+    height: 860px;
+    background-image: url(img/bola2.png);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#rodape {
+    text-align: right;
+    font-weight: bold;
+    max-width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+}
+
+#um,
+#dois,
+#tres {
+    background-color: #152375;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#um {
+    left: 0;
+    z-index: 1;
+    width: 40%;
+    transition-duration: 0.4s;
+    opacity: 20%;
+    bottom: 5%;
+}
+
+#um:hover {
+    z-index: 4;
+    opacity: 100%;
+    width: 71%;
+    bottom: 0;
+}
+
+#dois {
+    background-color: #000000;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition-duration: 0.4s;
+    width: 40%;
+    opacity: 20%;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+#dois:hover {
+    width: 71%;
+    opacity: 100%;
+    top: 0;
+}
+
+#tres {
+    right: 0;
+    z-index: 2;
+    transition-duration: 0.4s;
+    opacity: 20%;
+    width: 40%;
+    top: 5%;
+}
+
+#tres:hover {
+    z-index: 4;
+    opacity: 100%;
+    width: 71%;
+    top: 0;
+}
+
+#loja {
+    max-width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#produtos {
+    width: 70%;
+    float: left;
+    padding: 2%;
+}
+
+#areaL {
+    width: 28%;
+    float: right;
+}
+
+#produtos,
+#areaL {
+    background-color: #2D306E;
+}
+
+#menu {
+    background-color: gray;
+    padding: 1px 1% 1px 1%;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #EFDF02;
+}

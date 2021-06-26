@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1n, shrink-to-fit=no">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabeçalho">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"><img src="img/logo.png" alt="" id="home"></a>
+                        <a href="login.html" id="login" style="float: right;">LOGIN  </a>
+                        <a href="" id="conta" style="float: right;">MINHA CONTA  </a>
+                        <a href="loja.html" class="link" style="float: right;">LOJA  </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br><br><br>
+    <hr><br><br><br>
+    <div id="login">
+        <div class="container">
+            <fieldset>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Nome</span>
+                    </div>
+                    <input type="text" placeholder="digite o nome desgrasa" aria-label="First name" class="form-control" v-model='nomet'>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Senha</span>
+                    </div>
+                    <input type="text" placeholder="digite a senha porra" aria-label="senha" class="form-control" v-model='senhat'>
+                </div>
+                <br>
+                <button type="button " class="btn btn-outline-secondary " style="width: 100%;" v-on:click="check">tentar</button>
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+
+</html>
